@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
     # save a copy of the data to a file
     with open("data/all_rates.txt", "w") as file:
-        file.write(response.text)
+        file.write(data)
 
     # generate current data
     Product = None
