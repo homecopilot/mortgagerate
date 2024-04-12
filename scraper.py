@@ -46,6 +46,9 @@ if __name__ == "__main__":
     response = requests.get("https://www.wellsfargo.com/mortgage/rates/")
     data = html2text.html2text(response.text)
 
+    # remove tracking pixels /assets/images/global/s.gif?
+    data = "\n".join([lines for lines in data.split("\n") if r"/assets/images/global/s.gif" not in lines])
+
     # save a copy of the data to a file
     with open("data/all_rates.txt", "w") as file:
         file.write(data)
