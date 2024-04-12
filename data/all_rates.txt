@@ -97,15 +97,15 @@
 
 
 
-    <script type="text/javascript" nonce="b55398ea-304f-45a4-b252-39372b04765c">
+    <script type="text/javascript" nonce="10a4e262-0e68-4080-90bf-154635795fbb">
         var environment= "PRODUCTION"
         var appd_key= "AD-AAB-ABJ-PZF"
         var appd_js_path= "https://static.wellsfargo.com/assets/js/wfui/appdynamics"
     </script>
-    <script src="https://static.wellsfargo.com/assets/js/wfui/appdynamics/appdEUMConfig.js" nonce="b55398ea-304f-45a4-b252-39372b04765c">
+    <script src="https://static.wellsfargo.com/assets/js/wfui/appdynamics/appdEUMConfig.js" nonce="10a4e262-0e68-4080-90bf-154635795fbb">
     </script>
 
-<script type="text/javascript" nonce="b55398ea-304f-45a4-b252-39372b04765c">
+<script type="text/javascript" nonce="10a4e262-0e68-4080-90bf-154635795fbb">
  var akamaiImageHostUrl= "https://www17.wellsfargomedia.com"
 </script>
 
@@ -134,18 +134,18 @@
 	
 		
 	
-	<script nonce="b55398ea-304f-45a4-b252-39372b04765c">
+	<script nonce="10a4e262-0e68-4080-90bf-154635795fbb">
     	// if this line executes, then javascript is turned on and we'll therefore remove the no-js class from the HTML tag
     	document.documentElement.className = document.documentElement.className.replace(/(^|\s)no-js(\s|$)/, '$1$2');
   	</script>
     
 
-	    <script type="text/javascript" nonce="b55398ea-304f-45a4-b252-39372b04765c"> var utag_data = { app_id:'WWW',mpuid:'11202404120008122123098328',unique_id:'20240412120812',page_type:'BROWSER',tealium_js_path:'https://c1.wfinterface.com/tracking/main/utag.js',device_type:'',mt_tag_path:'https://c1.wfinterface.com/rtto/',customer_type:'',zip_code:'',environment:'PRODUCTION',lang_pref:'EN'} </script> 
+	    <script type="text/javascript" nonce="10a4e262-0e68-4080-90bf-154635795fbb"> var utag_data = { app_id:'WWW',mpuid:'11202404120012491255993208',unique_id:'20240412121249',page_type:'BROWSER',tealium_js_path:'https://c1.wfinterface.com/tracking/main/utag.js',device_type:'',mt_tag_path:'https://c1.wfinterface.com/rtto/',customer_type:'',zip_code:'',environment:'PRODUCTION',lang_pref:'EN'} </script> 
 
-	    <script type="text/javascript" nonce="b55398ea-304f-45a4-b252-39372b04765c"> var WFUI_CONTAINER = {"app_id":"WWW","environment":"PRODUCTION","top":{"sources":[]},"bottom":{"sources":[]}}; </script> 
+	    <script type="text/javascript" nonce="10a4e262-0e68-4080-90bf-154635795fbb"> var WFUI_CONTAINER = {"app_id":"WWW","environment":"PRODUCTION","top":{"sources":[]},"bottom":{"sources":[]}}; </script> 
 
 	
-<script id="antiClickjack" type="text/javascript" nonce="b55398ea-304f-45a4-b252-39372b04765c">try{if (self != top){top.location = self.location;}}catch(err){}</script></head>
+<script id="antiClickjack" type="text/javascript" nonce="10a4e262-0e68-4080-90bf-154635795fbb">try{if (self != top){top.location = self.location;}}catch(err){}</script></head>
 
  
         
@@ -935,7 +935,7 @@ QSR-04032025-5995604.1.1
 </div>
 
 
-<img src="/assets/images/global/s.gif?log=1&cb=1712905692415&event=PageLoad&pid=222-26732-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2Frates%2F&clist=84-7805-16~91-6211-32|182-220600-16~223-3757-32|182-252014-16~223-6249-32|84-7805-16~91-6211-32|182-26734-16~223-6253-32|182-26364-16~91-2049-32|182-26365-16~91-2049-32|182-228175-16~223-3757-32|182-308616-16~223-6249-32|84-32768-16~91-2049-32|84-7805-16~91-6216-32|84-220603-16~91-122371-32|84-32768-16~91-2049-32|84-5531-16~91-2045-32|84-39242-16~91-1924-32|84-294562-16~91-1924-32|84-257671-16~91-1924-32|84-45631-16~|84-45630-16~|84-45632-16~|84-97503-16~|84-69021-16~|84-45635-16~" alt=""/>
+<img src="/assets/images/global/s.gif?log=1&cb=1712905969516&event=PageLoad&pid=222-26732-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2Frates%2F&clist=84-7805-16~91-6211-32|182-220600-16~223-3757-32|182-252014-16~223-6249-32|84-7805-16~91-6211-32|182-26734-16~223-6253-32|182-26364-16~91-2049-32|182-26365-16~91-2049-32|182-228175-16~223-3757-32|182-308616-16~223-6249-32|84-32768-16~91-2049-32|84-7805-16~91-6216-32|84-220603-16~91-122371-32|84-32768-16~91-2049-32|84-5531-16~91-2045-32|84-39242-16~91-1924-32|84-294562-16~91-1924-32|84-257671-16~91-1924-32|84-45631-16~|84-45630-16~|84-45632-16~|84-97503-16~|84-69021-16~|84-45635-16~" alt=""/>
 
 
  
@@ -945,16 +945,16 @@ QSR-04032025-5995604.1.1
 	
 
 
-<script type="text/javascript" nonce="b55398ea-304f-45a4-b252-39372b04765c">
+<script type="text/javascript" nonce="10a4e262-0e68-4080-90bf-154635795fbb">
 	var tasInfo={"pageID":"/mortgage/rates/","Url":"/tas","App_ID":"WWW",
 				"deviceType":"Mobile"};	
 </script>
-<script src="/js/vendor/jquery.min.js" nonce="b55398ea-304f-45a4-b252-39372b04765c"></script>
-<script src="/js/frameworks/jq/jquery-ui.js" nonce="b55398ea-304f-45a4-b252-39372b04765c"></script>
-<script src="/js/global/global.js" nonce="b55398ea-304f-45a4-b252-39372b04765c"></script>
+<script src="/js/vendor/jquery.min.js" nonce="10a4e262-0e68-4080-90bf-154635795fbb"></script>
+<script src="/js/frameworks/jq/jquery-ui.js" nonce="10a4e262-0e68-4080-90bf-154635795fbb"></script>
+<script src="/js/global/global.js" nonce="10a4e262-0e68-4080-90bf-154635795fbb"></script>
 
 	
-		<script src="/javascript/mortgage/rates/homelendingrates.js" nonce="b55398ea-304f-45a4-b252-39372b04765c"></script>
+		<script src="/javascript/mortgage/rates/homelendingrates.js" nonce="10a4e262-0e68-4080-90bf-154635795fbb"></script>
 	
 
 
@@ -964,7 +964,7 @@ QSR-04032025-5995604.1.1
 
 
 
-    <script src="https://static.wellsfargo.com/assets/js/wfui/container/wfui-container-bottom.js" nonce="b55398ea-304f-45a4-b252-39372b04765c"></script>
+    <script src="https://static.wellsfargo.com/assets/js/wfui/container/wfui-container-bottom.js" nonce="10a4e262-0e68-4080-90bf-154635795fbb"></script>
 
 
 

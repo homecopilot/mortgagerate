@@ -72,6 +72,9 @@ if __name__ == "__main__":
     MORGAGE_RATE_FILE = "data/mortgage_rates.csv"
     if os.path.exists(MORGAGE_RATE_FILE):
         old_data = pd.read_csv(MORGAGE_RATE_FILE)
-        if old_data is not None and date not in old_data['date'].values:
+        existing_dates = set(pd.to_datetime(old_data['date']))
+        if old_data is not None and date not in existing_dates:
             data = pd.concat([old_data, data], ignore_index=True)
-    data.to_csv(MORGAGE_RATE_FILE, index=False)
+            data.to_csv(MORGAGE_RATE_FILE, index=False)
+    else:
+        data.to_csv(MORGAGE_RATE_FILE, index=False)
