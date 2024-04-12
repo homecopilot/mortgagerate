@@ -1,6 +1,6 @@
-## Mortgage Rate Dashboard
+# No-hassle Mortgage Rate Tracker
 
-A simple mortgage rate data aggregator without asking for any of your information. Just the data
+Mortgage rates scrapped from Wells Fargo. No signup or zip code needed
 
-### Reference
-* Deployging to github: https://github.com/gregrickaby/nextjs-github-pages
+## Reference
+* Workflow inspired by https://github.com/0xedward/wfmr

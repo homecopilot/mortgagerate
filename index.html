@@ -7,6 +7,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>  
 </head>
 <body>
+  <h1>Mortgage Rate Tracker - Wells Fargo</h1>
+  <a href="https://www.wellsfargo.com/mortgage/rates/">Wells Fargo Mortgage Rates Now</a>
   <div>
     <label for="Product-select">Select Product:</label>
     <select id="Product-select"></select>
@@ -65,8 +67,8 @@
 
           // Extract date, rate, and apr values for chart
           const dates = filteredData.map(row => row.date);
-          const rates = filteredData.map(row => parseFloat(row.rate));
-          const aprs = filteredData.map(row => parseFloat(row.apr));
+          const rates = filteredData.map(row => parseFloat(row.Rate));
+          const aprs = filteredData.map(row => parseFloat(row.APR));
 
           // Create chart
           const ctx = document.getElementById('chart').getContext('2d');
