@@ -74,30 +74,30 @@ quote/?src=refi&refdm=DMIWE7AU4R&)
 Purchase Rates table Product | Interest Rate | APR  
 ---|---|---  
 **Jumbo Loans  Amounts that exceed conforming loan limits**  
-[7/6-Month ARM Jumbo](/mortgage/rates/purchase-assumptions?prod=7) | 6.75% | 7.491%  
-[15-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=8) | 7.0% | 7.166%  
-[30-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=9) | 7.0% | 7.115%  
+[7/6-Month ARM Jumbo](/mortgage/rates/purchase-assumptions?prod=7) | 6.625% | 7.438%  
+[15-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=8) | 6.875% | 7.06%  
+[30-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=9) | 7.0% | 7.09%  
 **Conforming and Government Loans**  
-[7/6-Month ARM](/mortgage/rates/purchase-assumptions?prod=10) | 6.75% | 7.578%  
-[15-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=11) | 6.0% | 6.319%  
-[30-Year Fixed-Rate VA](/mortgage/rates/purchase-assumptions?prod=12) | 6.625% | 6.948%  
-[30-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=13) | 6.75% | 6.963%  
+[7/6-Month ARM](/mortgage/rates/purchase-assumptions?prod=10) | 6.625% | 7.537%  
+[15-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=11) | 5.875% | 6.213%  
+[30-Year Fixed-Rate VA](/mortgage/rates/purchase-assumptions?prod=12) | 6.5% | 6.833%  
+[30-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=13) | 6.75% | 6.938%  
   
-Rates, terms, and fees as of 4/11/2024 11:45 AM Eastern Daylight Time and
+Rates, terms, and fees as of 4/12/2024 10:15 AM Eastern Daylight Time and
 subject to change without notice.
 
 Refinance Rates table Product | Interest Rate | APR  
 ---|---|---  
 **Jumbo Loans  Amounts that exceed conforming loan limits**  
-[7/6-Month ARM Jumbo](/mortgage/rates/refinance-assumptions?prod=1) | 7.0% | 7.623%  
-[15-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=2) | 7.125% | 7.311%  
-[30-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=3) | 7.25% | 7.354%  
+[7/6-Month ARM Jumbo](/mortgage/rates/refinance-assumptions?prod=1) | 6.875% | 7.569%  
+[15-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=2) | 7.0% | 7.206%  
+[30-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=3) | 7.125% | 7.241%  
 **Conforming and Government Loans**  
-[7/6-Month ARM](/mortgage/rates/refinance-assumptions?prod=4) | 7.0% | 7.722%  
-[15-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=5) | 6.25% | 6.589%  
-[30-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=6) | 7.125% | 7.328%  
+[7/6-Month ARM](/mortgage/rates/refinance-assumptions?prod=4) | 7.0% | 7.697%  
+[15-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=5) | 6.125% | 6.463%  
+[30-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=6) | 7.0% | 7.215%  
   
-Rates, terms, and fees as of 4/11/2024 11:45 AM Eastern Daylight Time and
+Rates, terms, and fees as of 4/12/2024 10:15 AM Eastern Daylight Time and
 subject to change without notice.
 
   
@@ -208,5 +208,5 @@ non-conforming loan.
 
 © 1999 - 2024 Wells Fargo. NMLSR ID 399801
 
-![](/assets/images/global/s.gif?log=1&cb=1712930940628&event=PageLoad&pid=222-26732-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2Frates%2F&clist=84-7805-16~91-6211-32|182-220600-16~223-3757-32|182-252014-16~223-6249-32|84-7805-16~91-6211-32|182-26734-16~223-6253-32|182-26364-16~91-2049-32|182-26365-16~91-2049-32|182-228175-16~223-3757-32|182-308616-16~223-6249-32|84-32768-16~91-2049-32|84-7805-16~91-6216-32|84-220603-16~91-122371-32|84-32768-16~91-2049-32|84-5531-16~91-2045-32|84-39242-16~91-1924-32|84-294562-16~91-1924-32|84-257671-16~91-1924-32|84-45631-16~|84-45630-16~|84-45632-16~|84-97503-16~|84-69021-16~|84-45635-16~)
+![](/assets/images/global/s.gif?log=1&cb=1712934571047&event=PageLoad&pid=222-26732-64&ptid=91-6232-128&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fmortgage%2Frates%2F&clist=84-7805-16~91-6211-32|182-220600-16~223-3757-32|182-252014-16~223-6249-32|84-7805-16~91-6211-32|182-26734-16~223-6253-32|182-26364-16~91-2049-32|182-26365-16~91-2049-32|182-228175-16~223-3757-32|182-308616-16~223-6249-32|84-32768-16~91-2049-32|84-7805-16~91-6216-32|84-220603-16~91-122371-32|84-32768-16~91-2049-32|84-5531-16~91-2045-32|84-39242-16~91-1924-32|84-294562-16~91-1924-32|84-257671-16~91-1924-32|84-45631-16~|84-45630-16~|84-45632-16~|84-97503-16~|84-69021-16~|84-45635-16~)
 
