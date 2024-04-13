@@ -5,6 +5,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js "></script>  
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KLZJXCN1H"></script>
   <script>
@@ -18,16 +20,29 @@
 <body>
   <h1>Mortgage Rate Tracker - Wells Fargo</h1>
   <a href="https://www.wellsfargo.com/mortgage/rates/">Wells Fargo Mortgage Rates Now</a>
-  <div>
-    <label for="Product-select">Select Product:</label>
-    <select id="Product-select"></select>
+  <!-- use a table to align dropdown menus and buttons -->
+  <table>
+    <tr>
+      <td>
+        <label for="Product-select">Select Product:</label>
+        <select id="Product-select"></select>
+      </td>
+      <td>
+        <label for="Term-select">Select Term:</label>
+        <select id="Term-select"></select>
+      </td>
+      <td>
+        <button onclick="currentChart.resetZoom()">Reset Zoom</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p id="latest_rate" style="font-size: 120%; font-weight: bold;"></p>
+      </td>
+  </table>
+  <div style="width: 90vw;">
+    <canvas id="chart"></canvas>
   </div>
-  <div>
-    <label for="Term-select">Select Term:</label>
-    <select id="Term-select"></select>
-  </div>
-  <canvas id="chart"></canvas>
-
   <script>
     // Load data from CSV
     var currentChart = null;
@@ -60,11 +75,54 @@
         });
 
         // Update chart on dropdown selection change
-        ProductSelect.addEventListener('change', updateChart);
-        TermSelect.addEventListener('change', updateChart);
+        ProductSelect.addEventListener('change', updateAll);
+        TermSelect.addEventListener('change', updateAll);
 
         // Initial chart rendering
         updateChart();
+
+        updateRateCompare();
+
+        function updateAll() {
+          updateChart();
+          updateRateCompare();
+        }
+        function updateRateCompare() {
+          // Update latest rate (latest date in the data)
+          const selectedProduct = ProductSelect.value;
+          const selectedTerm = TermSelect.value;
+          const filteredData = data.filter(row => row.Product === selectedProduct && row.Term === selectedTerm);
+
+          const latestRate = filteredData.reduce((latest, current) => {
+            if (!latest || current.date > latest.date) {
+              return current;
+            }
+            return latest;
+          });
+          // Calculate deltas with the previous rate
+          const previousRate = filteredData.filter(row => row.date < latestRate.date).reduce((latest, current) => {
+            if (!latest || current.date > latest.date) {
+              return current;
+            }
+            return latest;
+          });
+
+
+          const rateDelta = Number(latestRate.Rate) - Number(previousRate.Rate);
+          // Display latest rate with deltas colored in green and red. Green means a reduction and red means an increase.
+          const latestRateElement = document.getElementById('latest_rate');
+          console.log(latestRate, rateDelta)
+          latestRateElement.textContent = `Latest Rate: ${Number(latestRate.Rate).toFixed(3)}%`;
+
+          if (rateDelta < 0) {
+            latestRateElement.innerHTML += ` (<span style="color: green;">${rateDelta.toFixed(3)}%</span>  w.r.t ${previousRate.date})`;
+          } else if (rateDelta > 0) {
+            latestRateElement.innerHTML += ` (<span style="color: red;">+${rateDelta.toFixed(3)}%</span>  w.r.t ${previousRate.date})`;
+          } else {
+            latestRateElement.innerHTML += ` <span style="color: black;">(No Change)</span>`;
+          }
+        }
+        
 
         function updateChart() {
           const selectedProduct = ProductSelect.value;
@@ -112,6 +170,7 @@
               scales: {
                 x: {
                   type: 'time',                  
+                  grace: '5%',
                   display: true,
                   title: {
                     display: true,
@@ -125,6 +184,23 @@
                     text: 'Rate & APR'
                   }
                 }
+              },
+              plugins: {
+                zoom: {
+                  // Container for zoom options
+                  zoom: {
+                      // Boolean to enable zooming
+                      enabled: true,
+
+                      // Zooming directions. Remove the appropriate direction to disable 
+                      // Eg. 'y' would only allow zooming in the y direction
+                      mode: 'xy',
+                      drag: {
+                        enabled: true,
+
+                      },
+                  },
+                }        
               }
             }
           });
