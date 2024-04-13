@@ -51,6 +51,8 @@
       .then(response => response.text())
       .then(csvData => {
         const data = Papa.parse(csvData, { header: true, skipEmptyLines: true, }).data;
+        // sort data by date
+        data.sort((a, b) => new Date(a.date) - new Date(b.date));
 
         console.log(data);
         // Extract unique values for Product and Term
@@ -176,7 +178,10 @@
                   title: {
                     display: true,
                     text: 'Date'
-                  }
+                  },
+                  time: {
+                    unit: 'day'
+                  }                  
                 },
                 y: {
                   display: true,
