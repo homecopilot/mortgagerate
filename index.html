@@ -50,8 +50,9 @@
     fetch('data/mortgage_rates.csv')
       .then(response => response.text())
       .then(csvData => {
-        const data = Papa.parse(csvData, { header: true }).data;
+        const data = Papa.parse(csvData, { header: true, skipEmptyLines: true, }).data;
 
+        console.log(data);
         // Extract unique values for Product and Term
         const Products = [...new Set(data.map(row => row.Product))];
         const Terms = [...new Set(data.map(row => row.Term))];
@@ -117,7 +118,7 @@
           if (rateDelta < 0) {
             latestRateElement.innerHTML += ` (<span style="color: green;">${rateDelta.toFixed(3)}%</span>  w.r.t ${previousRate.date})`;
           } else if (rateDelta > 0) {
-            latestRateElement.innerHTML += ` (<span style="color: red;">+${rateDelta.toFixed(3)}%</span>  w.r.t ${previousRate.date})`;
+            latestRateElement.innerHTML += ` (<span style="color: red;">+${rateDelta.toFixed(3)}%</span>  w.r.t  ${previousRate.date})`;
           } else {
             latestRateElement.innerHTML += ` <span style="color: black;">(No Change)</span>`;
           }
