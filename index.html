@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Mortgage Rate Chart</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"
+    integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js "></script>  
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js "></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KLZJXCN1H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-  
+
     gtag('config', 'G-1KLZJXCN1H');
   </script>
 </head>
+
 <body>
   <h1>Mortgage Rate Tracker - Wells Fargo</h1>
   <a href="https://www.wellsfargo.com/mortgage/rates/">Wells Fargo Mortgage Rates Now</a>
   <!-- use a table to align dropdown menus and buttons -->
   <table>
+    <tr>
+      <td>
+        <p id="latest_rate" style="font-size: 120%; font-weight: bold;"></p>
+      </td>
+      <td></td>
+    </tr>
     <tr>
       <td>
         <label for="Product-select">Select Product:</label>
@@ -31,16 +42,16 @@
         <label for="Term-select">Select Term:</label>
         <select id="Term-select"></select>
       </td>
-      <td>
-        <button onclick="currentChart.resetZoom()">Reset Zoom</button>
-      </td>
     </tr>
     <tr>
       <td>
-        <p id="latest_rate" style="font-size: 120%; font-weight: bold;"></p>
+        <button onclick="currentChart.resetZoom()">Reset Zoom</button>
       </td>
+      <td></td>
+    </tr>
+
   </table>
-  <div style="width: 90vw;">
+  <div style="width: 90vw; margin:auto">
     <canvas id="chart"></canvas>
   </div>
   <div>
@@ -51,7 +62,8 @@
           <a href="https://www.wealthfront.com/c/affiliates/invited/AFFD-E8PQ-GQRP-YJNU">Wealthfront</a>
         </td>
         <td>
-          Cash account with high yield (+5.5%) account with Wealthfront. Support wire transfer for earnst money and down pay.
+          Cash account with high yield (+5.5%) account with Wealthfront. Support wire transfer for earnst money and down
+          pay.
         </td>
       </tr>
       <tr>
@@ -145,7 +157,7 @@
             latestRateElement.innerHTML += ` <span style="color: black;">(No Change)</span>`;
           }
         }
-        
+
 
         function updateChart() {
           const selectedProduct = ProductSelect.value;
@@ -192,7 +204,7 @@
               maintainAspectRatio: true,
               scales: {
                 x: {
-                  type: 'time',                  
+                  type: 'time',
                   grace: '5%',
                   display: true,
                   title: {
@@ -201,7 +213,7 @@
                   },
                   time: {
                     unit: 'day'
-                  }                  
+                  }
                 },
                 y: {
                   display: true,
@@ -215,18 +227,18 @@
                 zoom: {
                   // Container for zoom options
                   zoom: {
-                      // Boolean to enable zooming
+                    // Boolean to enable zooming
+                    enabled: true,
+
+                    // Zooming directions. Remove the appropriate direction to disable 
+                    // Eg. 'y' would only allow zooming in the y direction
+                    mode: 'xy',
+                    drag: {
                       enabled: true,
 
-                      // Zooming directions. Remove the appropriate direction to disable 
-                      // Eg. 'y' would only allow zooming in the y direction
-                      mode: 'xy',
-                      drag: {
-                        enabled: true,
-
-                      },
+                    },
                   },
-                }        
+                }
               }
             }
           });
@@ -234,4 +246,5 @@
       });
   </script>
 </body>
+
 </html>
