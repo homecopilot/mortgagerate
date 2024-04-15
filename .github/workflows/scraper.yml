@@ -14,7 +14,9 @@ permissions:
 
 jobs:
   build:
-
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
     runs-on: ubuntu-latest
 
     steps:
