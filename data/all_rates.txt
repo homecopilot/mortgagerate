@@ -78,25 +78,25 @@ Purchase Rates table Product | Interest Rate | APR
 [15-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=7) | 7.0% | 7.166%  
 [30-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=8) | 7.0% | 7.115%  
 **Conforming and Government Loans**  
-[7/6-Month ARM](/mortgage/rates/purchase-assumptions?prod=9) | 6.75% | 7.604%  
+[7/6-Month ARM](/mortgage/rates/purchase-assumptions?prod=9) | 6.75% | 7.592%  
 [15-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=10) | 6.125% | 6.446%  
-[30-Year Fixed-Rate VA](/mortgage/rates/purchase-assumptions?prod=11) | 6.625% | 6.973%  
-[30-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=12) | 6.875% | 7.09%  
+[30-Year Fixed-Rate VA](/mortgage/rates/purchase-assumptions?prod=11) | 6.625% | 6.961%  
+[30-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=12) | 6.875% | 7.064%  
   
-Rates, terms, and fees as of 4/16/2024 10:16 AM Eastern Daylight Time and
+Rates, terms, and fees as of 4/17/2024 10:15 AM Eastern Daylight Time and
 subject to change without notice.
 
 Refinance Rates table Product | Interest Rate | APR  
 ---|---|---  
 **Jumbo Loans  Amounts that exceed conforming loan limits**  
-[7/6-Month ARM Jumbo](/mortgage/rates/refinance-assumptions?prod=1) | 7.0% | 7.623%  
-[15-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=2) | 7.125% | 7.311%  
+[7/6-Month ARM Jumbo](/mortgage/rates/refinance-assumptions?prod=1) | 7.0% | 7.624%  
+[15-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=2) | 7.125% | 7.312%  
 [30-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=3) | 7.25% | 7.354%  
 **Conforming and Government Loans**  
-[15-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=4) | 6.375% | 6.716%  
-[30-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=5) | 7.25% | 7.455%  
+[15-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=4) | 6.375% | 6.696%  
+[30-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=5) | 7.125% | 7.341%  
   
-Rates, terms, and fees as of 4/16/2024 10:16 AM Eastern Daylight Time and
+Rates, terms, and fees as of 4/17/2024 10:15 AM Eastern Daylight Time and
 subject to change without notice.
 
   
