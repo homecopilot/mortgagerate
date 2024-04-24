@@ -74,7 +74,7 @@ quote/?src=refi&refdm=DMIWE7AU4R&)
 Purchase Rates table Product | Interest Rate | APR  
 ---|---|---  
 **Jumbo Loans  Amounts that exceed conforming loan limits**  
-[7/6-Month ARM Jumbo](/mortgage/rates/purchase-assumptions?prod=7) | 6.75% | 7.518%  
+[7/6-Month ARM Jumbo](/mortgage/rates/purchase-assumptions?prod=7) | 6.75% | 7.519%  
 [15-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=8) | 7.0% | 7.187%  
 [30-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=9) | 7.125% | 7.229%  
 **Conforming and Government Loans**  
@@ -83,21 +83,21 @@ Purchase Rates table Product | Interest Rate | APR
 [30-Year Fixed-Rate VA](/mortgage/rates/purchase-assumptions?prod=12) | 6.5% | 6.846%  
 [30-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=13) | 6.875% | 7.09%  
   
-Rates, terms, and fees as of 4/23/2024 10:15 AM Eastern Daylight Time and
+Rates, terms, and fees as of 4/24/2024 01:09 AM Eastern Daylight Time and
 subject to change without notice.
 
 Refinance Rates table Product | Interest Rate | APR  
 ---|---|---  
 **Jumbo Loans  Amounts that exceed conforming loan limits**  
 [7/6-Month ARM Jumbo](/mortgage/rates/refinance-assumptions?prod=1) | 7.0% | 7.65%  
-[15-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=2) | 7.125% | 7.332%  
+[15-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=2) | 7.125% | 7.333%  
 [30-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=3) | 7.25% | 7.38%  
 **Conforming and Government Loans**  
 [7/6-Month ARM](/mortgage/rates/refinance-assumptions?prod=4) | 7.0% | 7.699%  
-[15-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=5) | 6.25% | 6.59%  
+[15-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=5) | 6.25% | 6.591%  
 [30-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=6) | 7.125% | 7.329%  
   
-Rates, terms, and fees as of 4/23/2024 10:15 AM Eastern Daylight Time and
+Rates, terms, and fees as of 4/24/2024 01:09 AM Eastern Daylight Time and
 subject to change without notice.
 
   
