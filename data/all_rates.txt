@@ -74,16 +74,16 @@ quote/?src=refi&refdm=DMIWE7AU4R&)
 Purchase Rates table Product | Interest Rate | APR  
 ---|---|---  
 **Jumbo Loans  Amounts that exceed conforming loan limits**  
-[7/6-Month ARM Jumbo](/mortgage/rates/purchase-assumptions?prod=7) | 6.5% | 7.37%  
+[7/6-Month ARM Jumbo](/mortgage/rates/purchase-assumptions?prod=7) | 6.5% | 7.371%  
 [15-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=8) | 6.75% | 6.934%  
 [30-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=9) | 6.875% | 6.989%  
 **Conforming and Government Loans**  
-[7/6-Month ARM](/mortgage/rates/purchase-assumptions?prod=10) | 6.5% | 7.456%  
+[7/6-Month ARM](/mortgage/rates/purchase-assumptions?prod=10) | 6.5% | 7.457%  
 [15-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=11) | 5.75% | 6.066%  
 [30-Year Fixed-Rate VA](/mortgage/rates/purchase-assumptions?prod=12) | 6.375% | 6.705%  
 [30-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=13) | 6.625% | 6.811%  
   
-Rates, terms, and fees as of 5/03/2024 10:15 AM Eastern Daylight Time and
+Rates, terms, and fees as of 5/06/2024 10:15 AM Eastern Daylight Time and
 subject to change without notice.
 
 Refinance Rates table Product | Interest Rate | APR  
@@ -93,11 +93,11 @@ Refinance Rates table Product | Interest Rate | APR
 [15-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=2) | 7.0% | 7.165%  
 [30-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=3) | 7.125% | 7.241%  
 **Conforming and Government Loans**  
-[7/6-Month ARM](/mortgage/rates/refinance-assumptions?prod=4) | 6.625% | 7.533%  
+[7/6-Month ARM](/mortgage/rates/refinance-assumptions?prod=4) | 6.625% | 7.534%  
 [15-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=5) | 5.875% | 6.17%  
 [30-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=6) | 6.75% | 6.961%  
   
-Rates, terms, and fees as of 5/03/2024 10:15 AM Eastern Daylight Time and
+Rates, terms, and fees as of 5/06/2024 10:15 AM Eastern Daylight Time and
 subject to change without notice.
 
   
