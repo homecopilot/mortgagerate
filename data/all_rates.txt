@@ -70,29 +70,29 @@ quote/?src=refi&refdm=DMIWE7AU4R&)
 Purchase Rates table Product | Interest Rate | APR  
 ---|---|---  
 **Jumbo Loans  Amounts that exceed conforming loan limits**  
-[7/6-Month ARM Jumbo](/mortgage/rates/purchase-assumptions?prod=6) | 6.25% | 7.248%  
-[15-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=7) | 6.375% | 6.579%  
-[30-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=8) | 6.5% | 6.588%  
+[7/6-Month ARM Jumbo](/mortgage/rates/purchase-assumptions?prod=6) | 6.25% | 7.236%  
+[15-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=7) | 6.375% | 6.559%  
+[30-Year Fixed-Rate Jumbo](/mortgage/rates/purchase-assumptions?prod=8) | 6.375% | 6.499%  
 **Conforming and Government Loans**  
-[7/6-Month ARM](/mortgage/rates/purchase-assumptions?prod=9) | 6.375% | 7.398%  
-[15-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=10) | 5.5% | 5.797%  
-[30-Year Fixed-Rate VA](/mortgage/rates/purchase-assumptions?prod=11) | 5.875% | 6.208%  
-[30-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=12) | 6.25% | 6.457%  
+[7/6-Month ARM](/mortgage/rates/purchase-assumptions?prod=9) | 6.375% | 7.373%  
+[15-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=10) | 5.375% | 5.69%  
+[30-Year Fixed-Rate VA](/mortgage/rates/purchase-assumptions?prod=11) | 5.875% | 6.196%  
+[30-Year Fixed Rate](/mortgage/rates/purchase-assumptions?prod=12) | 6.25% | 6.433%  
   
-Rates, terms, and fees as of 7/30/2024 10:15 AM Eastern Daylight Time and
+Rates, terms, and fees as of 7/31/2024 10:15 AM Eastern Daylight Time and
 subject to change without notice.
 
 Refinance Rates table Product | Interest Rate | APR  
 ---|---|---  
 **Jumbo Loans  Amounts that exceed conforming loan limits**  
-[7/6-Month ARM Jumbo](/mortgage/rates/refinance-assumptions?prod=1) | 6.5% | 7.376%  
-[15-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=2) | 6.625% | 6.769%  
-[30-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=3) | 6.625% | 6.738%  
+[7/6-Month ARM Jumbo](/mortgage/rates/refinance-assumptions?prod=1) | 6.5% | 7.364%  
+[15-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=2) | 6.5% | 6.704%  
+[30-Year Fixed-Rate Jumbo](/mortgage/rates/refinance-assumptions?prod=3) | 6.625% | 6.725%  
 **Conforming and Government Loans**  
-[15-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=4) | 5.625% | 5.96%  
-[30-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=5) | 6.625% | 6.823%  
+[15-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=4) | 5.625% | 5.92%  
+[30-Year Fixed Rate](/mortgage/rates/refinance-assumptions?prod=5) | 6.5% | 6.709%  
   
-Rates, terms, and fees as of 7/30/2024 10:15 AM Eastern Daylight Time and
+Rates, terms, and fees as of 7/31/2024 10:15 AM Eastern Daylight Time and
 subject to change without notice.
 
   
