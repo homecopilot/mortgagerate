@@ -1643,3 +1643,15 @@ Term,URL,Rate,APR,Product,date
 30-Year Fixed-Rate Jumbo,/mortgage/rates/refinance-assumptions?prod=3,6.125,6.246,Refinance,2024-09-19 10:15:00
 15-Year Fixed Rate,/mortgage/rates/refinance-assumptions?prod=4,4.875,5.179,Refinance,2024-09-19 10:15:00
 30-Year Fixed Rate,/mortgage/rates/refinance-assumptions?prod=5,5.875,6.062,Refinance,2024-09-19 10:15:00
+7/6-Month ARM Jumbo,/mortgage/rates/purchase-assumptions?prod=6,5.75,6.981,Purchase,2024-09-20 10:15:00
+15-Year Fixed-Rate Jumbo,/mortgage/rates/purchase-assumptions?prod=7,5.875,6.036,Purchase,2024-09-20 10:15:00
+30-Year Fixed-Rate Jumbo,/mortgage/rates/purchase-assumptions?prod=8,5.875,5.995,Purchase,2024-09-20 10:15:00
+7/6-Month ARM,/mortgage/rates/purchase-assumptions?prod=9,6.375,7.381,Purchase,2024-09-20 10:15:00
+15-Year Fixed Rate,/mortgage/rates/purchase-assumptions?prod=10,4.625,4.949,Purchase,2024-09-20 10:15:00
+30-Year Fixed-Rate VA,/mortgage/rates/purchase-assumptions?prod=11,5.125,5.443,Purchase,2024-09-20 10:15:00
+30-Year Fixed Rate,/mortgage/rates/purchase-assumptions?prod=12,5.625,5.799,Purchase,2024-09-20 10:15:00
+7/6-Month ARM Jumbo,/mortgage/rates/refinance-assumptions?prod=1,6.0,7.126,Refinance,2024-09-20 10:15:00
+15-Year Fixed-Rate Jumbo,/mortgage/rates/refinance-assumptions?prod=2,6.0,6.201,Refinance,2024-09-20 10:15:00
+30-Year Fixed-Rate Jumbo,/mortgage/rates/refinance-assumptions?prod=3,6.125,6.246,Refinance,2024-09-20 10:15:00
+15-Year Fixed Rate,/mortgage/rates/refinance-assumptions?prod=4,4.875,5.16,Refinance,2024-09-20 10:15:00
+30-Year Fixed Rate,/mortgage/rates/refinance-assumptions?prod=5,5.875,6.05,Refinance,2024-09-20 10:15:00
